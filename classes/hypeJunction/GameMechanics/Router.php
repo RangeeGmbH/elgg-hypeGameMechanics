@@ -141,7 +141,7 @@ class Router {
 						'filter_context' => 'owner'
 					));
 				} else {
-					$title = elgg_echo('machanics:badges:owner', array($user->name));
+					$title = elgg_echo('mechanics:badges:owner', array($user->name));
 					$filter = elgg_view('framework/mechanics/filter', array(
 						'filter_context' => false
 					));
